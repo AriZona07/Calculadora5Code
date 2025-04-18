@@ -1,0 +1,83 @@
+﻿/*
+    * FuncionesCalculadora
+    * Este programa hace clases para una calculadora del programa principal.
+    * Este código está diseñado para ser utilizado en un entorno de consola.
+    * Autora: Arianna Torres
+    * Fecha: 02/04/2025
+*/
+namespace FuncionesCalculadora
+{
+    public class ClaseCalculadora
+    {
+        // Método para sumar números
+        public static double SumarNumeros(double[] numeros, double resultado)
+        {
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                resultado += numeros[i];
+            }
+            return resultado;
+        }
+
+        // Método para restar números
+        public static double RestarNumeros(double[] numeros, double resultado)
+        {
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                resultado -= numeros[i];
+            }
+            return resultado;
+        }
+
+        // Método para multiplicar números
+        public static double MultiplicarNumeros(double[] numeros, double resultado, int contador)
+        {
+            if (contador == 1)
+            {
+                resultado = 1; // Inicializa el resultado en 1 para la multiplicación solo la primera vez
+                if (numeros.Length == 0)
+                {
+                    Console.WriteLine("Debe ingresar al menos un número para la primera multiplicación.");
+                    return double.NaN;
+                }
+            }
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                resultado *= numeros[i];
+            }
+            return resultado;
+        }
+
+        // Método para dividir números
+        public static double DividirNumeros(double[] numeros, double resultado, int contador)
+        {
+            if (numeros.Length > 0)
+            {
+                if (contador == 1)
+                {
+                    resultado = numeros[0]; // Inicializa con el primer número solo en la primera división
+                }
+                else
+                {
+                    resultado /= numeros[0]; // Divide el resultado actual por el primer número ingresado
+                }
+
+                for (int i = 1; i < numeros.Length; i++) // Comienza desde el segundo número
+                {
+                    if (numeros[i] == 0)
+                    {
+                        Console.WriteLine("¡Error! No se puede dividir por cero.");
+                        return double.NaN;
+                    }
+                    resultado /= numeros[i];
+                }
+            }
+            else
+            {
+                Console.WriteLine("Debe ingresar al menos un número para la división.");
+                return double.NaN;
+            }
+            return resultado;
+        }
+    }
+}

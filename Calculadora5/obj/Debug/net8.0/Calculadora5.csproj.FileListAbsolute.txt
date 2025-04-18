@@ -1,0 +1,14 @@
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.AssemblyInfoInputs.cache
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.AssemblyInfo.cs
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.csproj.CoreCompileInputs.cache
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\bin\Debug\net8.0\Calculadora5.exe
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\bin\Debug\net8.0\Calculadora5.deps.json
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\bin\Debug\net8.0\Calculadora5.runtimeconfig.json
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\bin\Debug\net8.0\Calculadora5.dll
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\bin\Debug\net8.0\Calculadora5.pdb
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.dll
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\refint\Calculadora5.dll
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.pdb
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\Calculadora5.genruntimeconfig.cache
+C:\Users\arife\OneDrive\Documentos\Calculadora5Code\Calculadora5\obj\Debug\net8.0\ref\Calculadora5.dll
